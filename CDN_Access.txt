@@ -1,0 +1,1 @@
+https://cdn.rawgit.com/saurkadam/SessionManagerLibrary/master/sessionmanager.jss
