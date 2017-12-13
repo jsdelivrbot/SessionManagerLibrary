@@ -1,3 +1,5 @@
+
+//Module Design Pattern 
 var sessionmanager = (function(){
 
 	var localStore = function(data,interval){
@@ -31,9 +33,10 @@ var sessionmanager = (function(){
 				var d=new Date();
 				d = d.getTime();
 				if(e < d){
-					localStorage.removeItem(0);
+					localStorage.removeItem("SessionSaver");
 				}
-				if(localStorage.length == 0){
+				if(localStorage["SessionSaver"].length == 0){
+					alert("Session Timed Out");
 					DestroySession();
 					return false;
 				}	
