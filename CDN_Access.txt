@@ -1,1 +1,1 @@
-https://cdn.rawgit.com/saurkadam/SessionManagerLibrary/master/sessionmanager.js
+https://cdn.jsdelivr.net/gh/saurkadam/SessionManagerLibrary/sessionmanager.js
